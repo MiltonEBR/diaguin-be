@@ -1,0 +1,36 @@
+{
+  "name": "diaguin-be",
+  "version": "1.0.0",
+  "description": "Diaguin backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "start": "node build/index.js",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiltonEBR/diaguin-be.git"
+  },
+  "author": "MiltonEBR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiltonEBR/diaguin-be/issues"
+  },
+  "homepage": "https://github.com/MiltonEBR/diaguin-be#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
